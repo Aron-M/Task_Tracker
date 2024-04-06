@@ -73,3 +73,10 @@ C:\WebApplicationsDevelopment\Task_Tracker_API\bin\Debug\net7.0\Microsoft.Entity
 C:\WebApplicationsDevelopment\Task_Tracker_API\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
 C:\WebApplicationsDevelopment\Task_Tracker_API\bin\Debug\net7.0\Mono.TextTemplating.dll
 C:\WebApplicationsDevelopment\Task_Tracker_API\bin\Debug\net7.0\System.CodeDom.dll
+C:\WebApplicationsDevelopment\Task_Tracker_API\obj\Debug\net7.0\Task_Tracker_API.MvcApplicationPartsAssemblyInfo.cs
+C:\WebApplicationsDevelopment\Task_Tracker_API\bin\Debug\net7.0\Task_Tracker_API.xml
+C:\WebApplicationsDevelopment\Task_Tracker_API\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\WebApplicationsDevelopment\Task_Tracker_API\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\WebApplicationsDevelopment\Task_Tracker_API\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\WebApplicationsDevelopment\Task_Tracker_API\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\WebApplicationsDevelopment\Task_Tracker_API\obj\Debug\net7.0\Task_Tracker_API.xml

@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Task_tracker_API</name>
+    </assembly>
+    <members>
+        <member name="T:TaskTrackerAPI.Migrations.InitialCreate">
+            <inheritdoc />
+        </member>
+        <member name="M:TaskTrackerAPI.Migrations.InitialCreate.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:TaskTrackerAPI.Migrations.InitialCreate.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:TaskTrackerAPI.Migrations.InitialCreate.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:TaskTrackerAPI.Migrations.SeedData">
+            <inheritdoc />
+        </member>
+        <member name="M:TaskTrackerAPI.Migrations.SeedData.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:TaskTrackerAPI.Migrations.SeedData.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:TaskTrackerAPI.Migrations.SeedData.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
