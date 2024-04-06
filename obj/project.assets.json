@@ -514,7 +514,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "Microsoft.EntityFrameworkCore >= 6.4.4"
+      "Microsoft.EntityFrameworkCore >= 7.0.0"
     ]
   },
   "packageFolders": {
@@ -558,7 +558,7 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
-            "version": "[6.4.4, )"
+            "version": "[7.0.0, )"
           }
         },
         "imports": [
@@ -583,17 +583,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1603",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Task_tracker_API depends on Microsoft.EntityFrameworkCore (>= 6.4.4) but Microsoft.EntityFrameworkCore 6.4.4 was not found. An approximate best match of Microsoft.EntityFrameworkCore 7.0.0 was resolved.",
-      "libraryId": "Microsoft.EntityFrameworkCore",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    }
-  ]
+  }
 }

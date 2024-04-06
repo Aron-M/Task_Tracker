@@ -7,5 +7,9 @@ public class Category
 {
     public int Id { get; set; }
     public string Name { get; set; }
-    // Add other properties as needed
+    
+    public Category()
+    {
+        Name = ""; // Initialize to empty string or another default value
+    }
 }

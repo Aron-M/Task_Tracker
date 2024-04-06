@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "3UY1PSO2myul1qX4yfvku7eJHU5WBrb/nRiNPrkxqJn2AcM35qLpli/4R6Al1/vrN0fMflSP8qgqw5nIFqOhTg==",
+  "dgSpecHash": "crgByT5RfUbiFdDGlxhpu1dSdgCuIyHTVHXhqcbyDm5T6g9XmMsRalDnF3m0Wxo20TGgppfr81slXJSHcK4SrQ==",
   "success": true,
   "projectFilePath": "C:\\WebApplicationsDevelopment\\Task_Tracker_API\\Task_tracker_API.csproj",
   "expectedPackageFiles": [
@@ -16,16 +16,5 @@
     "C:\\Users\\aronm\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
     "C:\\Users\\aronm\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1603",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Task_tracker_API depends on Microsoft.EntityFrameworkCore (>= 6.4.4) but Microsoft.EntityFrameworkCore 6.4.4 was not found. An approximate best match of Microsoft.EntityFrameworkCore 7.0.0 was resolved.",
-      "libraryId": "Microsoft.EntityFrameworkCore",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    }
-  ]
+  "logs": []
 }
