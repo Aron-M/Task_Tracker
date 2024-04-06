@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 public class User
 {
-    public int Id { get; set; }
+    public int UserId { get; set; } // Changed from Id to UserId
     public string Username { get; set; }
   
     public User()
     {
-        Username = ""; // Initialize to empty string or another default value
+        Username = "";
     }
 }

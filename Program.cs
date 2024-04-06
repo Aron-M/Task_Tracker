@@ -1,6 +1,12 @@
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddDbContext<TaskTrackerDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("TaskTrackerDBConnection")));
+
+// Add controllers
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();

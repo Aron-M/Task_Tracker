@@ -5,11 +5,11 @@ using System.Threading.Tasks;
 
 public class Category
 {
-    public int Id { get; set; }
+    public int CategoryId { get; set; } // Changed from Id to CategoryId
     public string Name { get; set; }
     
     public Category()
     {
-        Name = ""; // Initialize to empty string or another default value
+        Name = "";
     }
 }
