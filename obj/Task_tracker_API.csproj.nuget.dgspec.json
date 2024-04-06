@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\WebApplicationsDevelopment\\Task_Tracker_API\\Task_Tracker_API.csproj": {}
+    "C:\\WebApplicationsDevelopment\\Task_Tracker_API\\Task_tracker_API.csproj": {}
   },
   "projects": {
-    "C:\\WebApplicationsDevelopment\\Task_Tracker_API\\Task_Tracker_API.csproj": {
+    "C:\\WebApplicationsDevelopment\\Task_Tracker_API\\Task_tracker_API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\WebApplicationsDevelopment\\Task_Tracker_API\\Task_Tracker_API.csproj",
-        "projectName": "Task_Tracker_API",
-        "projectPath": "C:\\WebApplicationsDevelopment\\Task_Tracker_API\\Task_Tracker_API.csproj",
+        "projectUniqueName": "C:\\WebApplicationsDevelopment\\Task_Tracker_API\\Task_tracker_API.csproj",
+        "projectName": "Task_tracker_API",
+        "projectPath": "C:\\WebApplicationsDevelopment\\Task_Tracker_API\\Task_tracker_API.csproj",
         "packagesPath": "C:\\Users\\aronm\\.nuget\\packages\\",
         "outputPath": "C:\\WebApplicationsDevelopment\\Task_Tracker_API\\obj\\",
         "projectStyle": "PackageReference",

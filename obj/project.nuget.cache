@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JrBal5fkdsd59ge1wx/gCQXk5kCV1fx/uPNFxjyvb6j29GoloM5RYms0VImWD7gzz9jNXSNHzrufTcZq42lYFg==",
+  "dgSpecHash": "ZuufLlypJNmW+jQGwNp3fA7wpa9WU6g6WR38FSIuDip9Nm1IS2YcK+5J6/SknvN8WS/fO5i7oQCU/yfkRRBtvg==",
   "success": true,
-  "projectFilePath": "C:\\WebApplicationsDevelopment\\Task_Tracker_API\\Task_Tracker_API.csproj",
+  "projectFilePath": "C:\\WebApplicationsDevelopment\\Task_Tracker_API\\Task_tracker_API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aronm\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\aronm\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
