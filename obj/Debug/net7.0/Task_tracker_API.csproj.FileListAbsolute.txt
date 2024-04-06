@@ -1,0 +1,8 @@
+C:\WebApplicationsDevelopment\Task_Tracker_API\obj\Debug\net7.0\Task_tracker_API.csproj.AssemblyReference.cache
+C:\WebApplicationsDevelopment\Task_Tracker_API\obj\Debug\net7.0\Task_tracker_API.GeneratedMSBuildEditorConfig.editorconfig
+C:\WebApplicationsDevelopment\Task_Tracker_API\obj\Debug\net7.0\Task_tracker_API.AssemblyInfoInputs.cache
+C:\WebApplicationsDevelopment\Task_Tracker_API\obj\Debug\net7.0\Task_tracker_API.AssemblyInfo.cs
+C:\WebApplicationsDevelopment\Task_Tracker_API\obj\Debug\net7.0\Task_tracker_API.csproj.CoreCompileInputs.cache
+C:\WebApplicationsDevelopment\Task_Tracker_API\obj\Debug\net7.0\Task_tracker_API.MvcApplicationPartsAssemblyInfo.cache
+C:\WebApplicationsDevelopment\Task_Tracker_API\obj\Debug\net7.0\Task_tracker_API.RazorAssemblyInfo.cache
+C:\WebApplicationsDevelopment\Task_Tracker_API\obj\Debug\net7.0\Task_tracker_API.RazorAssemblyInfo.cs
