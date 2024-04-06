@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 public class Category
 {
-    public int CategoryId { get; set; } // Changed from Id to CategoryId
+    public int CategoryId { get; set; } 
     public string Name { get; set; }
     
     public Category()

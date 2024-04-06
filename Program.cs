@@ -1,4 +1,6 @@
 using Microsoft.EntityFrameworkCore;
+using Task_tracker_API.Data;
+
 
 var builder = WebApplication.CreateBuilder(args);
 

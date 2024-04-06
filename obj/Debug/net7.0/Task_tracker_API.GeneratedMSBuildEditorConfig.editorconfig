@@ -7,8 +7,8 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
-build_property.RootNamespace = Task_tracker_API
-build_property.RootNamespace = Task_tracker_API
+build_property.RootNamespace = Task_Tracker_API
+build_property.RootNamespace = Task_Tracker_API
 build_property.ProjectDir = C:\WebApplicationsDevelopment\Task_Tracker_API\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
@@ -42,4 +42,4 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/WebApplicationsDevelopment/Task_Tracker_API/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-61xzgqucbv
+build_metadata.AdditionalFiles.CssScope = b-ut2oe9pv3w

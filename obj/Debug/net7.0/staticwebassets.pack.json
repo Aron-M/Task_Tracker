@@ -1,8 +1,8 @@
 {
   "Files": [
     {
-      "Id": "C:\\WebApplicationsDevelopment\\Task_Tracker_API\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Task_tracker_API.bundle.scp.css",
-      "PackagePath": "staticwebassets\\Task_tracker_API.bundle.scp.css"
+      "Id": "C:\\WebApplicationsDevelopment\\Task_Tracker_API\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Task_Tracker_API.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Task_Tracker_API.bundle.scp.css"
     },
     {
       "Id": "C:\\WebApplicationsDevelopment\\Task_Tracker_API\\wwwroot\\css\\site.css",
@@ -245,20 +245,20 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Task_tracker_API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Task_Tracker_API.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Task_tracker_API.props",
-      "PackagePath": "build\\Task_tracker_API.props"
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Task_Tracker_API.props",
+      "PackagePath": "build\\Task_Tracker_API.props"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Task_tracker_API.props",
-      "PackagePath": "buildMultiTargeting\\Task_tracker_API.props"
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Task_Tracker_API.props",
+      "PackagePath": "buildMultiTargeting\\Task_Tracker_API.props"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Task_tracker_API.props",
-      "PackagePath": "buildTransitive\\Task_tracker_API.props"
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Task_Tracker_API.props",
+      "PackagePath": "buildTransitive\\Task_Tracker_API.props"
     }
   ],
   "ElementsToRemove": []

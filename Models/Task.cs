@@ -10,6 +10,7 @@ public class Task
     public string Title { get; set; }
     [Key]
     public int TaskId { get; set; }
+    public int CategoryId { get; set; }
     
     public Task()
     {

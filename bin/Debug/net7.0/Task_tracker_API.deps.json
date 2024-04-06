@@ -6,14 +6,14 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v7.0": {
-      "Task_tracker_API/1.0.0": {
+      "Task_Tracker_API/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "7.0.0",
           "Microsoft.EntityFrameworkCore.Design": "7.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.0"
         },
         "runtime": {
-          "Task_tracker_API.dll": {}
+          "Task_Tracker_API.dll": {}
         }
       },
       "Azure.Core/1.24.0": {
@@ -611,7 +611,7 @@
     }
   },
   "libraries": {
-    "Task_tracker_API/1.0.0": {
+    "Task_Tracker_API/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

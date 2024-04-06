@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 public class User
 {
-    public int UserId { get; set; } // Changed from Id to UserId
+    public int UserId { get; set; }
     public string Username { get; set; }
   
     public User()
