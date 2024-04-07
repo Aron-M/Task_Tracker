@@ -1,10 +1,12 @@
 using Microsoft.AspNetCore.Mvc;
 using Task_tracker_API.Data;
-using Task_tracker_API.Models; // Make sure this is the correct namespace for your User model
+using Task_tracker_API.Models;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using System.Security.Cryptography;
+using Microsoft.AspNetCore.Cryptography.KeyDerivation;
 
 namespace Task_tracker_API.Controllers
 {
@@ -44,6 +46,9 @@ namespace Task_tracker_API.Controllers
         [HttpPost]
         public async Task<ActionResult<User>> PostUser(User user)
         {
+            // Hash the password before saving it to the database
+            user.Password = HashPassword(user.Password);
+
             _context.Users.Add(user);
             await _context.SaveChangesAsync();
 
@@ -58,6 +63,9 @@ namespace Task_tracker_API.Controllers
             {
                 return BadRequest();
             }
+
+            // Hash the password before updating it in the database
+            user.Password = HashPassword(user.Password);
 
             _context.Entry(user).State = EntityState.Modified;
 
@@ -99,6 +107,27 @@ namespace Task_tracker_API.Controllers
         private bool UserExists(int id)
         {
             return _context.Users.Any(e => e.UserId == id);
+        }
+
+        // Helper method to hash passwords
+        private string HashPassword(string password)
+        {
+            // Generate a random salt
+            byte[] salt = new byte[128 / 8];
+            using (var rng = RandomNumberGenerator.Create())
+            {
+                rng.GetBytes(salt);
+            }
+
+            // Hash the password with the salt
+            string hashed = Convert.ToBase64String(KeyDerivation.Pbkdf2(
+                password: password,
+                salt: salt,
+                prf: KeyDerivationPrf.HMACSHA256,
+                iterationCount: 10000,
+                numBytesRequested: 256 / 8));
+
+            return hashed;
         }
     }
 }

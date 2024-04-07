@@ -40,5 +40,17 @@
         <member name="M:TaskTrackerAPI.Migrations.AddTaskDetails.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
             <inheritdoc />
         </member>
+        <member name="T:TaskTrackerAPI.Migrations.AddEmailAndPasswordToUser">
+            <inheritdoc />
+        </member>
+        <member name="M:TaskTrackerAPI.Migrations.AddEmailAndPasswordToUser.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:TaskTrackerAPI.Migrations.AddEmailAndPasswordToUser.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:TaskTrackerAPI.Migrations.AddEmailAndPasswordToUser.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
     </members>
 </doc>
