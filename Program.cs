@@ -1,8 +1,20 @@
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Task_tracker_API.Data;
 using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
+
+/// Add services to the container.
+builder.Services.AddControllersWithViews();
+
+builder.Services.AddDbContext<TaskTrackerDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+
+// Add services to the container.
+builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+    .AddEntityFrameworkStores<TaskTrackerDbContext>();
 
 // Add services to the container.
 builder.Services.AddDbContext<TaskTrackerDbContext>(options =>
