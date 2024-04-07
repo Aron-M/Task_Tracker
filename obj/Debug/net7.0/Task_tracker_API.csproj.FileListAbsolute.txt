@@ -80,3 +80,4 @@ C:\WebApplicationsDevelopment\Task_Tracker_API\bin\Debug\net7.0\Swashbuckle.AspN
 C:\WebApplicationsDevelopment\Task_Tracker_API\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\WebApplicationsDevelopment\Task_Tracker_API\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\WebApplicationsDevelopment\Task_Tracker_API\obj\Debug\net7.0\Task_Tracker_API.xml
+C:\WebApplicationsDevelopment\Task_Tracker_API\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
