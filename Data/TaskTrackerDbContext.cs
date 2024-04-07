@@ -16,8 +16,8 @@ namespace Task_tracker_API.Data
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<User>().HasData(
-            new User { UserId = 1, Username = "Alice", /* other properties */ },
-            new User { UserId = 2, Username = "Bob", /* other properties */ }
+            new User { UserId = 1, Username = "Alice", Email = "Alice@example.com", Password = "password" },
+            new User { UserId = 2, Username = "Bob", Email = "Bob@example.com", Password = "password"}
             // Add more users as needed
         );
 

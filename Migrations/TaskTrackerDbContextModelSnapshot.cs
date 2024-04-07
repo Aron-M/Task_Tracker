@@ -108,6 +108,14 @@ namespace TaskTrackerAPI.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("UserId"));
 
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Username")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -120,11 +128,15 @@ namespace TaskTrackerAPI.Migrations
                         new
                         {
                             UserId = 1,
+                            Email = "Alice@example.com",
+                            Password = "password",
                             Username = "Alice"
                         },
                         new
                         {
                             UserId = 2,
+                            Email = "Bob@example.com",
+                            Password = "password",
                             Username = "Bob"
                         });
                 });

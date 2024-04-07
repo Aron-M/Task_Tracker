@@ -11,7 +11,7 @@ using Task_tracker_API.Data;
 namespace TaskTrackerAPI.Migrations
 {
     [DbContext(typeof(TaskTrackerDbContext))]
-    [Migration("20240407124449_AddEmailAndPasswordToUser")]
+    [Migration("20240407135342_AddEmailAndPasswordToUser")]
     partial class AddEmailAndPasswordToUser
     {
         /// <inheritdoc />
@@ -111,6 +111,14 @@ namespace TaskTrackerAPI.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("UserId"));
 
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Username")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -123,11 +131,15 @@ namespace TaskTrackerAPI.Migrations
                         new
                         {
                             UserId = 1,
+                            Email = "Alice@example.com",
+                            Password = "password",
                             Username = "Alice"
                         },
                         new
                         {
                             UserId = 2,
+                            Email = "Bob@example.com",
+                            Password = "password",
                             Username = "Bob"
                         });
                 });
