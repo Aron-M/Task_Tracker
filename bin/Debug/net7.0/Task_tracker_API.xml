@@ -28,5 +28,17 @@
         <member name="M:TaskTrackerAPI.Migrations.SeedData.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
             <inheritdoc />
         </member>
+        <member name="T:TaskTrackerAPI.Migrations.AddTaskDetails">
+            <inheritdoc />
+        </member>
+        <member name="M:TaskTrackerAPI.Migrations.AddTaskDetails.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:TaskTrackerAPI.Migrations.AddTaskDetails.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:TaskTrackerAPI.Migrations.AddTaskDetails.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
     </members>
 </doc>

@@ -1,19 +1,27 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
 
 public class Task
 {
-    public int UserId { get; set; }
-    public string Title { get; set; }
     [Key]
     public int TaskId { get; set; }
+
+    public int UserId { get; set; }
+
+    [Required]
+    public string Title { get; set; }
+
+    public string Description { get; set; } // Optional if you allow tasks without descriptions
+
+    public bool IsComplete { get; set; } // Indicates whether the task is completed
+
     public int CategoryId { get; set; }
-    
+
+    // You can remove the constructor if you're going to initialize properties elsewhere
     public Task()
     {
-        Title = ""; 
+        Title = "";
+        Description = "";
+        IsComplete = false;
     }
 }
