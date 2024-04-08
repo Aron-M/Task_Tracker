@@ -52,5 +52,41 @@
         <member name="M:TaskTrackerAPI.Migrations.AddEmailAndPasswordToUser.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
             <inheritdoc />
         </member>
+        <member name="T:TaskTrackerAPI.Migrations.RevertEmailAndPassword">
+            <inheritdoc />
+        </member>
+        <member name="M:TaskTrackerAPI.Migrations.RevertEmailAndPassword.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:TaskTrackerAPI.Migrations.RevertEmailAndPassword.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:TaskTrackerAPI.Migrations.RevertEmailAndPassword.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:TaskTrackerAPI.Migrations.AddSeedData">
+            <inheritdoc />
+        </member>
+        <member name="M:TaskTrackerAPI.Migrations.AddSeedData.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:TaskTrackerAPI.Migrations.AddSeedData.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:TaskTrackerAPI.Migrations.AddSeedData.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:TaskTrackerAPI.Migrations.SeedInitialData2">
+            <inheritdoc />
+        </member>
+        <member name="M:TaskTrackerAPI.Migrations.SeedInitialData2.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:TaskTrackerAPI.Migrations.SeedInitialData2.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:TaskTrackerAPI.Migrations.SeedInitialData2.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
     </members>
 </doc>

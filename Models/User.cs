@@ -14,5 +14,7 @@ public class User
     public User()
     {
         Username = "";
+        Email = "";
+        Password = "";
     }
 }

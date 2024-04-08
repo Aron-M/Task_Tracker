@@ -17,11 +17,4 @@ public class Task
 
     public int CategoryId { get; set; }
 
-    // You can remove the constructor if you're going to initialize properties elsewhere
-    public Task()
-    {
-        Title = "";
-        Description = "";
-        IsComplete = false;
-    }
 }

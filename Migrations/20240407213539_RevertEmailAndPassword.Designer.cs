@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Task_tracker_API.Data;
 
@@ -11,9 +12,11 @@ using Task_tracker_API.Data;
 namespace TaskTrackerAPI.Migrations
 {
     [DbContext(typeof(TaskTrackerDbContext))]
-    partial class TaskTrackerDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240407213539_RevertEmailAndPassword")]
+    partial class RevertEmailAndPassword
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -287,18 +290,18 @@ namespace TaskTrackerAPI.Migrations
                         {
                             TaskId = 1,
                             CategoryId = 1,
-                            Description = "This is a sample task description.",
+                            Description = "",
                             IsComplete = false,
-                            Title = "Sample Task",
+                            Title = "Task 1",
                             UserId = 1
                         },
                         new
                         {
                             TaskId = 2,
                             CategoryId = 2,
-                            Description = "This is another task description.",
+                            Description = "",
                             IsComplete = false,
-                            Title = "Another Task",
+                            Title = "Task 2",
                             UserId = 2
                         });
                 });

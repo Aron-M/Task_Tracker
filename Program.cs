@@ -5,20 +5,16 @@ using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
-/// Add services to the container.
+// Add services to the container.
 builder.Services.AddControllersWithViews();
 
+// Register the DbContext for Identity and your application
 builder.Services.AddDbContext<TaskTrackerDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-
-// Add services to the container.
+// Register Identity services
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
     .AddEntityFrameworkStores<TaskTrackerDbContext>();
-
-// Add services to the container.
-builder.Services.AddDbContext<TaskTrackerDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("TaskTrackerDBConnection")));
 
 // Add controllers
 builder.Services.AddControllersWithViews();
@@ -67,6 +63,7 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+app.UseAuthentication(); // Add this line to enable authentication
 app.UseAuthorization();
 
 app.MapControllerRoute(
